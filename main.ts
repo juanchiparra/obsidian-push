@@ -368,7 +368,7 @@ class PushSettingTab extends PluginSettingTab {
 	display(): void {
 		const { containerEl } = this;
 		containerEl.empty();
-		containerEl.createEl("h2", { text: "Obsidian Push – Settings" });
+		containerEl.createEl("h2", { text: "Obsidian Push settings" });
 
 		new Setting(containerEl)
 			.setName("Target directory")
